@@ -1,0 +1,35 @@
+h1 {
+  color: #424242;
+}
+.red {
+  color: red;
+}
+#heading {
+  color: purple;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  width: 30%;
+}
+.text-container {
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  #heading {
+    color: blue;
+  }
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  img {
+    width: 90%;
+  }
+  .text-container {
+    width: 90%;
+  }
+}
